@@ -1,0 +1,64 @@
+.about-container {
+    padding: 20px;
+    text-align: left;
+    
+    .page-title {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #333; /* Adjust color as needed */
+    }
+    
+    .section {
+      margin-bottom: 30px;
+      
+      h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #007bff; /* Adjust color as needed */
+      }
+      
+      p {
+        font-size: 16px;
+        color: #666; /* Adjust color as needed */
+      }
+      
+      ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        
+        li {
+          font-size: 16px;
+          color: #666; /* Adjust color as needed */
+        }
+      }
+      
+      .founder {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        
+        img {
+          width: 100px; /* Adjust image size */
+          border-radius: 50%; /* Makes the image circular */
+          margin-right: 20px;
+        }
+      }
+      
+      .team-members {
+        display: flex;
+        flex-wrap: wrap;
+        
+        .team-member {
+          width: calc(50% - 10px); /* Two columns with spacing */
+          margin-bottom: 20px;
+          
+          img {
+            width: 100px; /* Adjust image size */
+            border-radius: 50%; /* Makes the image circular */
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+  
